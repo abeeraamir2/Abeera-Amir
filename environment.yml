@@ -1,0 +1,20 @@
+name: navttc-aiml
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - jupyter
+  - ipykernel
+  - pytest
+  - pip:
+    - tensorflow>=2.13.0
+    - torch
+    - torchvision
+    - torchaudio
