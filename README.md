@@ -76,38 +76,31 @@ Week 1-5 NAVTTC Tasks/
 
 ---
 
-## 🌟 Week 3 Tasks Summary (NumPy Numerical Computing)
+## 🌟 Week 3 & 4 Tasks Summary (NumPy & Pandas Data Stack - Tasks 28 - 48)
 
-| Task No. | Task Title | Details |
-|:---:|:---|:---|
-| **28** | **Creating NumPy Arrays** | 0-D to 3-D arrays, inspecting `ndim`, and 5-D arrays with `ndmin`. |
-| **29** | **NumPy Array Indexing** | Accessing elements across 1-D, 2-D, 3-D, and negative indexing. |
-| **30** | **NumPy Array Slicing** | 1-D step slicing, negative slices, and 2-D row/column sub-matrices. |
-| **31** | **Data Types & Casting** | Inspecting `dtype`, specifying types (`'i4'`, `'S'`), and casting via `astype()`. |
-| **32** | **Copy vs View** | Data ownership rules, memory sharing in views, and `.base` attribute checks. |
-| **33** | **Array Shape** | Understanding dimensions and tuples returned by `.shape`. |
-| **34** | **Array Reshaping** | Reshaping 1-D to 2-D/3-D, unknown dimension (`-1`), and array flattening. |
-| **35** | **Array Iterating** | Standard nested loops, `np.nditer()`, and `np.ndenumerate()`. |
-| **36** | **Matrix Joining** | `concatenate` along axis 0/1, `stack`, `hstack`, `vstack`, and `dstack`. |
-| **37** | **Array Splitting** | Dividing arrays into N parts via `np.array_split()`, `np.hsplit()`, `np.vsplit()`. |
-| **38** | **Array Searching** | Conditional search with `np.where()` and binary search with `np.searchsorted()`. |
-| **39** | **Array Sorting** | Sorting numbers, alphabetical strings, booleans, and 2-D matrices. |
-| **40** | **Random Techniques** | Random numbers, arrays, weighted choices, permutations, and seeds. |
-
----
-
-## 🌟 Week 4 Tasks Summary (Pandas Data Manipulation)
-
-| Task No. | Task Title | Details |
-|:---:|:---|:---|
-| **41** | **Pandas Basics** | Tabular dataset creation from dictionaries, dimensions, rows, and columns. |
-| **42** | **Getting Started** | Installation check, checking version via `pd.__version__`, basic validation. |
-| **43** | **Series Data** | 1-D labeled arrays, custom index labels, and dictionary-to-Series conversion. |
-| **44** | **DataFrames** | 2-D tabular data, selecting rows with `.loc[]`, and named row indexes. |
-| **45** | **Open CSV Files** | Reading CSV files with `pd.read_csv()`, `to_string()`, and `max_rows`. |
-| **46** | **Data Analyzing** | Data exploration using `.head()`, `.tail()`, `.info()`, and `.describe()`. |
-| **47** | **Data Cleaning** | Detecting nulls (`isna()`), dropping rows (`dropna()`), imputing medians (`fillna()`), and removing duplicates (`drop_duplicates()`). |
-| **48** | **Data Correlation** | Calculating Pearson correlation matrix with `.corr()` and relationship analysis. |
+| Task No. | Library | Task Title | Details |
+|:---:|:---:|:---|:---|
+| **28** | NumPy | **Creating NumPy Arrays** | 0-D to 3-D arrays, inspecting `ndim`, and 5-D arrays with `ndmin`. |
+| **29** | NumPy | **NumPy Array Indexing** | Accessing elements across 1-D, 2-D, 3-D, and negative indexing. |
+| **30** | NumPy | **NumPy Array Slicing** | 1-D step slicing, negative slices, and 2-D row/column sub-matrices. |
+| **31** | NumPy | **Data Types & Casting** | Inspecting `dtype`, specifying types (`'i4'`, `'S'`), and casting via `astype()`. |
+| **32** | NumPy | **Copy vs View** | Data ownership rules, memory sharing in views, and `.base` attribute checks. |
+| **33** | NumPy | **Array Shape** | Understanding dimensions and tuples returned by `.shape`. |
+| **34** | NumPy | **Array Reshaping** | Reshaping 1-D to 2-D/3-D, unknown dimension (`-1`), and array flattening. |
+| **35** | NumPy | **Array Iterating** | Standard nested loops, `np.nditer()`, and `np.ndenumerate()`. |
+| **36** | NumPy | **Matrix Joining** | `concatenate` along axis 0/1, `stack`, `hstack`, `vstack`, and `dstack`. |
+| **37** | NumPy | **Array Splitting** | Dividing arrays into N parts via `np.array_split()`, `np.hsplit()`, `np.vsplit()`. |
+| **38** | NumPy | **Array Searching** | Conditional search with `np.where()` and binary search with `np.searchsorted()`. |
+| **39** | NumPy | **Array Sorting** | Sorting numbers, alphabetical strings, booleans, and 2-D matrices. |
+| **40** | NumPy | **Random Techniques** | Random numbers, arrays, weighted choices, permutations, and seeds. |
+| **41** | Pandas | **Pandas Basics** | Tabular dataset creation from dictionaries, dimensions, rows, and columns. |
+| **42** | Pandas | **Getting Started** | Installation check, checking version via `pd.__version__`, basic validation. |
+| **43** | Pandas | **Series Data** | 1-D labeled arrays, custom index labels, and dictionary-to-Series conversion. |
+| **44** | Pandas | **DataFrames** | 2-D tabular data, selecting rows with `.loc[]`, and named row indexes. |
+| **45** | Pandas | **Open CSV Files** | Reading CSV files with `pd.read_csv()`, `to_string()`, and `max_rows`. |
+| **46** | Pandas | **Data Analyzing** | Data exploration using `.head()`, `.tail()`, `.info()`, and `.describe()`. |
+| **47** | Pandas | **Data Cleaning** | Detecting nulls (`isna()`), dropping rows (`dropna()`), imputing medians (`fillna()`), and removing duplicates (`drop_duplicates()`). |
+| **48** | Pandas | **Data Correlation** | Calculating Pearson correlation matrix with `.corr()` and relationship analysis. |
 
 ---
 
