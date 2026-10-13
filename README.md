@@ -17,18 +17,19 @@ Week 1-5 NAVTTC Tasks/
 ├── environment.yml                # Conda environment definition
 ├── README.md                      # Main repository documentation
 │
-├── Week-01/                       # Week 1: Environment, Linux & Python Basics (Tasks 1 - 25)
-│   └── tasks/                     # Python scripts (Tasks 3 - 25)
+├── NAVTTC-Tasks/                  # NAVTTC Coursework (Weeks 1 - 5)
+│   ├── Week-01/                   # Week 1: Environment, Linux & Python Basics (Tasks 1 - 25)
+│   │   └── tasks/                 # Python scripts (Tasks 3 - 25)
+│   ├── Week-02/                   # Week 2: Functions, Exceptions & Stats (Tasks 20, 26, 27, 49, 50)
+│   │   └── tasks/                 # Python scripts
+│   ├── Week-03-04/                # Week 3 & 4: NumPy & Pandas Data Stack (Tasks 28 - 48)
+│   │   ├── data/                  # Sample dataset (health_data.csv)
+│   │   └── tasks/                 # NumPy (28-40) & Pandas (41-48) scripts
+│   └── Week-05/                   # Week 5: Machine Learning (Tasks 51 & 52)
+│       └── tasks/                 # Scikit-Learn implementations (Tasks 51 & 52)
 │
-├── Week-02/                       # Week 2: Functions, Exceptions & Stats (Tasks 20, 26, 27, 49, 50)
-│   └── tasks/                     # Python scripts
-│
-├── Week-03-04/                    # Week 3 & 4: NumPy & Pandas Data Stack (Tasks 28 - 48)
-│   ├── data/                      # Sample dataset (health_data.csv)
-│   └── tasks/                     # NumPy (28-40) & Pandas (41-48) scripts
-│
-└── Week-05/                       # Week 5: Machine Learning (Tasks 51 & 52)
-    └── tasks/                     # Scikit-Learn implementations (Tasks 51 & 52)
+└── Class-Tasks/                   # Class-Based Tasks & Lab Exercises
+    └── README.md                  # Class tasks overview & guidelines
 ```
 
 ---
@@ -130,16 +131,16 @@ conda activate navttc-aiml
 ### 2. Run Individual Tasks
 ```bash
 # Example: Run Week 1 Task 3 (Addition)
-python Week-01/tasks/task_03_add_two_numbers.py
+python NAVTTC-Tasks/Week-01/tasks/task_03_add_two_numbers.py
 
 # Example: Run Week 2 Task 50 (Standard Deviation)
-python Week-02/tasks/task_50_standard_deviation.py
+python NAVTTC-Tasks/Week-02/tasks/task_50_standard_deviation.py
 
 # Example: Run Week 3 & 4 Task 28 (NumPy Arrays)
-python Week-03-04/tasks/task_28_numpy_create_arrays.py
+python NAVTTC-Tasks/Week-03-04/tasks/task_28_numpy_create_arrays.py
 
 # Example: Run Week 5 Task 51 (Linear Regression)
-python Week-05/tasks/task_51_linear_regression.py
+python NAVTTC-Tasks/Week-05/tasks/task_51_linear_regression.py
 ```
 
 ---
